@@ -1,0 +1,44 @@
+{
+    "name": "oracle-strategic-cursebound",
+    "title": "Oracle Strategic Cursebound System - Complete Subclasses",
+    "description": "Full Foundry VTT module for Pathfinder 2e Remastered: includes six custom Oracle subclasses, all Cursebound Focus Spells, feats, class features, and a macro tool to track Cursebound Levels.",
+    "version": "1.2.0",
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "11",
+    "author": "Homebrew Oracle Builder",
+    "systems": [
+        {
+            "id": "pf2e",
+            "version": "4.5.0"
+        }
+    ],
+    "packs": [
+        {
+            "name": "oracle-focus-spells",
+            "label": "Oracle Focus Spells",
+            "path": "packs/oracle-focus-spells.db",
+            "type": "Item"
+        },
+        {
+            "name": "oracle-feats",
+            "label": "Oracle Feats",
+            "path": "packs/oracle-feats.db",
+            "type": "Item"
+        },
+        {
+            "name": "oracle-class-features",
+            "label": "Oracle Class Features",
+            "path": "packs/oracle-class-features.db",
+            "type": "Item"
+        },
+        {
+            "name": "cursebound-tools",
+            "label": "Cursebound Tracker Tools",
+            "path": "packs/cursebound-tools.db",
+            "type": "Macro"
+        }
+    ],
+    "url": "https://example.com",
+    "manifest": "https://example.com/module.json",
+    "download": "https://example.com/oracle_strategic_cursebound_system.zip"
+}
